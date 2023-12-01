@@ -4,8 +4,9 @@ function App() {
   return (
     <div>
       <marquee behavior="" direction="">
-        <h1>hello guys !!!!</h1>
-        <h2>sdhjasdjaskbdkasdasd</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, atque.
+        </p>
       </marquee>
     </div>
   );
