@@ -1,13 +1,18 @@
 import React from "react";
-
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 function App() {
   return (
     <div>
-      <marquee behavior="" direction="">
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, atque.
-        </p>
-      </marquee>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
