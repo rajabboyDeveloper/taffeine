@@ -1,10 +1,11 @@
 .navbar {
-  width: 100%;
+  width: 90%;
   height: 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
+  position: absolute;
+  z-index: 999999999;
 }
 .item {
   width: 803px;
